@@ -1,7 +1,7 @@
 import Footer from "./Footer"
 import Navbar from "./NavBar";
 
-const Layoyt = ({ children }) => {
+const Layout = ({ children }) => {
     return ( 
         <div className="content">
             <Navbar />
@@ -11,4 +11,4 @@ const Layoyt = ({ children }) => {
      );
 }
  
-export default Layoyt;
+export default Layout;
